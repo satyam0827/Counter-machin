@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-align: center;
+    background:url("images/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    backdrop-filter: blur(3px);
+}
+
+.container{
+    background: transparent;
+    max-width: 600px;
+    margin: auto;
+    border: 2px solid #D65F00;
+    box-shadow: 0 0 15px rgb(255, 255, 255);
+    border-radius: 10px;
+    backdrop-filter: blur(20px) saturate(120%);
+    position: relative;
+    top: 150px;
+    padding: 30px 10px;
+    height: 40%;
+    background-color: rgba(0,0,0,0.3);
+}
+
+button{
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 600;
+    margin: auto;
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+h1{
+    text-shadow: 0 0 10px white;
+}
+h2{
+    font-size: 50px;
+    font-weight: 700;
+    margin: 20px 0px;
+}
+#increment--btn{
+    background-color: #003198;
+}
+#save--btn{
+    background-color: #C7A86B;
+}
+#clear--btn{
+    background-color: red;
+}
+p{
+    font-size: 20px;
+}
